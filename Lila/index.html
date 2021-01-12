@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://kit.fontawesome.com/417de737bc.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <h1>Le quiz de Lila</h1>
+  <div id="carouselExampleInterval" class="carousel slide" data-interval='false' data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h2>Bonjour LILA !</h2>
+        <p>
+          Je t'ai fait ce petit questionnaire parce que je sais que tu apprends à te servir de l'ordinateur.<br />
+          A chaque page, clique sur le petit haut-parleur et tu entendras un cri d'animal. <br />
+          Clique sur l'animal qui fait ce cri pour gagner un point.<br>
+          Et pour commencer, clique sur la flèche bleue.
+          <a href="#carouselExampleInterval" role="button" data-slide="next" id="samba"></a>
+        </p>
+      </div>
+      <div class="carousel-item">
+        <h2><i style="font-size: 4rem" class="fas fa-volume-up elephant"></i><br /> Qui fait ce son ?</h2>
+        <div class="proposition vrai">
+          <a href="#carouselExampleInterval" role="button" data-slide="next">
+            <img src="images/Elephant.jfif" alt="L'éléphant" class="fleche"><br>L'éléphant ?
+          </a>
+        </div>
+
+        <div class="proposition faux">
+          <img src="images/Cachalot.jfif" alt="Le cachalot"> <br>Le cachalot ?
+        </div>
+
+        <div class="proposition faux">
+          <img src="images/ours.jfif" alt="L'ours"><br>L'ours ?
+        </div>
+
+      </div>
+
+      <div class="carousel-item">
+        <a href="#carouselExampleInterval" role="button" data-slide="next"><img class="reponse" src="images/elephant.gif" alt="Pffrt"></a> <br>
+        <h2>Bravo, c'est bien l'éléphant ! Un point pour toi !<br />
+          Clique sur l'image pour continuer
+        </h2>
+
+
+      </div>
+
+      <div class="carousel-item">
+        <h2><i style="font-size: 4rem" class="fas fa-volume-up cochon"></i><br /> Qui fait ce son ?</h2>
+        <div class="proposition vrai">
+          <a href="#carouselExampleInterval" role="button" data-slide="next">
+            <img src="images/cochon.png" alt="Le cochon" class="fleche"><br>Le cochon ?
+          </a>
+        </div>
+
+        <div class="proposition faux">
+          <img src="images/loutre.jpeg" alt="La loutre"> <br>La loutre ?
+        </div>
+
+        <div class="proposition faux">
+          <img src="images/renard.jpg" alt="Le renard"><br>Le renard ?
+        </div>
+
+      </div>
+
+      <div class="carousel-item">
+        <a href="#carouselExampleInterval" role="button" data-slide="next"><img class="reponse" src="images/dancingpig.gif" alt="Pffrt"></a> <br>
+        <p>Bravo, c'est bien le cochon ! Deux points !<br />
+          Clique sur l'image pour continuer
+        </p>
+
+      </div>
+
+      <div class="carousel-item">
+        <h2><i style="font-size: 4rem" class="fas fa-volume-up oie"></i><br /> Qui fait ce son ?</h2>
+        <div class="proposition faux">
+          <img src="images/chat.jpg" alt="Le chat"><br>Le chat ?
+        </div>
+
+        <div class="proposition faux">
+          <img src="images/zebre.jpeg" alt="Le zebre"> <br>Le zèbre ?
+        </div>
+
+        <div class="proposition vrai">
+          <a href="#carouselExampleInterval" role="button" data-slide="next" class="fleche">
+            <img src="images/goose-killing.jpg" alt="Des oies"><br>L'oie ?
+          </a>
+        </div>
+
+
+      </div>
+      <div class="carousel-item">
+        <a href="#carouselExampleInterval" role="button" data-slide="next"><img class="reponse" src="images/goose.gif" alt="Pffrt"></a> <br>
+        <h2>Bravo, ce sont bien des oies ! Trois points !<br />
+          Clique sur l'image pour continuer</h2>
+      </div>
+
+
+      <div class="carousel-item">
+        <h2><i style="font-size: 4rem" class="fas fa-volume-up furet"></i><br /> Qui fait ce son ?</h2>
+        <div class="proposition faux">
+          <img src="images/picvert.jpg" alt="Le pic vert"><br>Le pic-vert ?
+        </div>
+
+        <div class="proposition vrai">
+          <a href="#carouselExampleInterval" role="button" data-slide="next" class="fleche">
+            <img src="images/furet.jfif" alt="Le furet"> <br>Le furet ?
+          </a>
+        </div>
+
+        <div class="proposition faux">
+          <img src="images/loup.jpg" alt="Le loup"><br>Le loup ?
+        </div>
+
+
+      </div>
+      <div class="carousel-item">
+        <a href="#carouselExampleInterval" role="button" data-slide="next"><img class="reponse" src="images/furet.gif" alt="Pffrt"> <br>
+          <h2>Bravo, c'est bien le furet ! On en est à quatre !<br />
+        </a>
+        Un petit dernier ?</h2>
+
+
+      </div>
+
+
+      <div class="carousel-item">
+        <h2><i style="font-size: 4rem" class="fas fa-volume-up perroquet"></i><br /> Qui fait ce son ?</h2>
+        <div class="proposition faux">
+          <img src="images/serpent.jpg" alt="Le serpent"><br>Le serpent ?
+        </div>
+
+        <div class="proposition faux">
+          <img src="images/crabe.jpg" alt="Le crabe"> <br>Le crabe ?
+        </div>
+
+        <div class="proposition vrai">
+          <a href="#carouselExampleInterval" role="button" data-slide="next" class="fleche">
+            <img src="images/perroquet.jpg" alt="Le perroquet"><br>Le perroquet ?
+          </a>
+        </div>
+
+
+      </div>
+      <div class="carousel-item">
+        <a href="#carouselExampleInterval" role="button" data-slide="next"><img class="reponse" src="images/parrot.gif" alt="Pffrt"></a> <br>
+        <h2>Bravo, c'est bien le perroquet ! Tu as cinq sur cinq !<br />
+          J'espère que ça t'a plu.
+          A bientôt et gros bisous de nous tous.
+          (Clique sur le perroquet pour revenir au début)
+
+        </h2>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
